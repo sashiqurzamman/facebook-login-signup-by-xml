@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="English (US)"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:padding="8dp"
+            android:layout_gravity="end"/>
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/facebook"
+            android:contentDescription="Facebook Logo" />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Mobile number or email"
+            android:padding="12dp"
+            android:textColor="#000000"
+            android:textColorHint="#A9A9A9"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/rounded_edittext" />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:padding="12dp"
+            android:textColor="#000000"
+            android:textColorHint="#A9A9A9"
+            android:inputType="textPassword"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_edittext" />
+
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Log in"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/rounded_button_blue"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot password?"
+            android:textColor="#1877F2"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/buttonCreateAccount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create new account"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/rounded_button_white"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meta"
+            android:textColor="#A0A0A0"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp" />
+    </LinearLayout>
+</ScrollView>
